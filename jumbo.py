@@ -26,5 +26,5 @@ while True:
    if i < 10:
 
       s.send(b'\x01')
-print("Attack Started 🔥 on " ip )
+print("Attack Started ☢️")
 print("Use CTRL+C to stop the Attack")
