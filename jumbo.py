@@ -1,7 +1,8 @@
 import socket
-
-   
-
+import os
+import sys
+os.system("clear)
+print
 print("Warning!!!! This Script is no joke and it is for educational purposes only, I'm not responsible for any damage caused by this script")
 
 print("To insert the default port write 0")
@@ -25,3 +26,5 @@ while True:
    if i < 10:
 
       s.send(b'\x01')
+print("Attack Started 🔥 on " ip )
+print("Use CTRL+C to stop the Attack")
