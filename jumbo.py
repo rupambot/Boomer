@@ -1,7 +1,7 @@
 import socket
 import os
 import sys
-os.system("clear)
+os.system("clear")
 print
 print("Warning!!!! This Script is no joke and it is for educational purposes only, I'm not responsible for any damage caused by this script")
 
